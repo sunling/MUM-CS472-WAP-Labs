@@ -46,6 +46,5 @@
             
         <p><span style="color: red">${tryMsg}</span></p>
         <p><input type="button" value="hint?" onclick="clickTest('${currH}')" /></p>
-        
     </body>
 </html>

@@ -9,5 +9,7 @@
     </head>
     <body>
         <aspx:Label foreColor='red' text='hello'/>
+        
+        <%= Class.forName("mum.cs472.Label").getMethods() %>
     </body>
 </html>
