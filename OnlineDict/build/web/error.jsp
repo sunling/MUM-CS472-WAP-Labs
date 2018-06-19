@@ -1,0 +1,21 @@
+<%-- 
+    Document   : error
+    Created on : Jun 18, 2018, 2:35:02 PM
+    Author     : sunling
+--%>
+ 
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" isErrorPage="true" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Error</title>
+</head>
+<body>
+    <center>
+        <h1>Error</h1>
+        <h2><%=exception.getMessage() %><br/> </h2>
+    </center>
+</body>
+</html>
